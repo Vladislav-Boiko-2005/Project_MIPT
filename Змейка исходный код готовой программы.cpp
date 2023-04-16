@@ -201,25 +201,25 @@ void snake:: moving_snake (int n)
         bool flag=0;
         switch (n)
         {
-        case 72://///////////   лево
+        case 72://///////////   Г«ГҐГўГ®
         {
             vect[0].this_y--;
             flag=1;
             break;
         }
-        case 75 : ////////////////  вверх
+        case 75 : ////////////////  ГўГўГҐГ°Гµ
         {
             vect[0].this_x--;
             flag=1;
             break;
         }
-        case 80://////////////////   вниз
+        case 80://////////////////   ГўГ­ГЁГ§
         {
             vect[0].this_y++;
             flag=1;
             break;
         }
-        case 77: //////////////  вправо
+        case 77: //////////////  ГўГЇГ°Г ГўГ®
         {
             vect[0].this_x++;
             flag=1;
